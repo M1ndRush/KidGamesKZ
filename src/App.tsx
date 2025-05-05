@@ -9,7 +9,7 @@ import { ScoreProvider } from './contexts/ScoreContext';
 
 function App() {
   const location = useLocation();
-  const isHome = location.pathname === '/';
+  const isHome = location.pathname === '/' || location.pathname === '/KidGamesKZ/';
   return (
     <ScoreProvider>
       <div className="min-h-screen bg-gradient-to-b from-sky-100 to-purple-100 flex flex-col">
